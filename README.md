@@ -1,4 +1,4 @@
-# TechConsult IT Solutions Website
+# Spring of Life Consultancy Website
 
 A modern, responsive IT consulting services website built with React and Tailwind CSS.
 
@@ -144,6 +144,6 @@ This project is licensed under the MIT License.
 ## Contact
 
 For questions or support, please contact:
-- Email: info@techconsult.com
+- Email: info@springoflifeconsultancy.com
 - Phone: +1 (555) 123-4567
-# -TechConsultwebsite
+# springoflifeconsultancy

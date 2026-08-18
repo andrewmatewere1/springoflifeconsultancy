@@ -96,7 +96,7 @@ const Team = () => {
                 Our Culture & Values
               </h2>
               <p className="text-lg text-secondary-600 mb-8">
-                At TechConsult, we foster a culture of innovation, collaboration, and continuous learning. 
+                At Spring of Life Consultancy, we foster a culture of innovation, collaboration, and continuous learning. 
                 Our team is united by a shared passion for technology and a commitment to delivering excellence 
                 in everything we do.
               </p>

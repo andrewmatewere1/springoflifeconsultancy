@@ -41,7 +41,7 @@ const Navbar = () => {
               <span className="text-white font-bold">TC</span>
             </div>
             <span className={`${isScrolled ? 'text-gray-900' : 'text-white'}`}>
-              TechConsult
+              Spring of Life Consultancy
             </span>
           </Link>
 

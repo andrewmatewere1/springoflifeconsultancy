@@ -50,7 +50,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold">TC</span>
               </div>
-              <span className="text-2xl font-bold">TechConsult</span>
+              <span className="text-2xl font-bold">Spring of Life Consultancy</span>
             </div>
             <p className="text-secondary-300 mb-6 max-w-md">
               Transform your business with cutting-edge IT solutions. We deliver excellence in consulting, 
@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-secondary-300">
                 <Mail size={18} className="text-primary-400" />
-                <span>info@techconsult.com</span>
+                <span>info@springoflifeconsultancy.com</span>
               </div>
               <div className="flex items-center space-x-3 text-secondary-300">
                 <MapPin size={18} className="text-primary-400" />
@@ -161,7 +161,7 @@ const Footer = () => {
         <div className="border-t border-secondary-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-secondary-400 text-sm">
-              © {currentYear} TechConsult. All rights reserved.
+              © {currentYear} Spring of Life Consultancy. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link 

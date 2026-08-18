@@ -93,7 +93,7 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-6">
-                Why Choose TechConsult?
+                Why Choose Spring of Life Consultancy?
               </h2>
               <p className="text-lg text-secondary-600 mb-8">
                 With over a decade of experience in IT consulting, we've helped hundreds of businesses 

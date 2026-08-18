@@ -213,7 +213,7 @@ export const testimonials = [
     name: "Robert Williams",
     company: "Tech Innovations Inc.",
     position: "CEO",
-    content: "TechConsult transformed our IT infrastructure completely. Their expertise and professionalism exceeded our expectations.",
+    content: "Spring of Life Consultancy transformed our IT infrastructure completely. Their expertise and professionalism exceeded our expectations.",
     rating: 5
   },
   {
