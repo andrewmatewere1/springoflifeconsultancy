@@ -1,3 +1,14 @@
+import { Monitor, Cloud, Shield, Code, BarChart, Headphones } from 'lucide-react';
+
+export const serviceIcons = {
+  Monitor,
+  Cloud,
+  Shield,
+  Code,
+  BarChart,
+  Headphones,
+};
+
 export const services = [
   {
     id: 1,

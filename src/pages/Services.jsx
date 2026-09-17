@@ -1,5 +1,5 @@
 import React from 'react';
-import { services } from '../data/mockData';
+import { services, serviceIcons } from '../data/mockData';
 import Card from '../components/Card';
 import Button from '../components/Button';
 import { CheckCircle, ArrowRight } from 'lucide-react';
@@ -23,10 +23,12 @@ const Services = () => {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {services.map((service, index) => (
+            {services.map((service) => {
+              const Icon = serviceIcons[service.icon];
+              return (
               <Card key={service.id} className="group">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary-600 transition-all duration-300 group-hover:scale-110">
-                  <service.icon className="text-primary-600 group-hover:text-white" size={32} />
+                  {Icon && <Icon className="text-primary-600 group-hover:text-white" size={32} />}
                 </div>
                 
                 <h3 className="text-2xl font-bold text-secondary-900 mb-4 group-hover:text-primary-600 transition-colors duration-300">
@@ -51,7 +53,8 @@ const Services = () => {
                   <ArrowRight size={16} className="ml-2" />
                 </Button>
               </Card>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
