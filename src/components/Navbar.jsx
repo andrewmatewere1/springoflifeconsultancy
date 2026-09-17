@@ -38,7 +38,7 @@ const Navbar = () => {
             className="flex items-center space-x-2 text-2xl font-bold text-gradient"
           >
             <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold">TC</span>
+              <span className="text-white font-bold">SL</span>
             </div>
             <span className={`${isScrolled ? 'text-gray-900' : 'text-white'}`}>
               Spring of Life Consultancy

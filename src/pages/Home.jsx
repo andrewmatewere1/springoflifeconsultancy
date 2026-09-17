@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, CheckCircle, TrendingUp, Shield } from 'lucide-react';
-import { services, testimonials } from '../data/mockData';
+import { services, serviceIcons, testimonials } from '../data/mockData';
 import Button from '../components/Button';
 import Card from '../components/Card';
 
@@ -57,10 +57,12 @@ const Home = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featuredServices.map((service, index) => (
+            {featuredServices.map((service) => {
+              const Icon = serviceIcons[service.icon];
+              return (
               <Card key={service.id} className="text-center group">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-600 transition-colors duration-300">
-                  <service.icon className="text-primary-600 group-hover:text-white" size={32} />
+                  {Icon && <Icon className="text-primary-600 group-hover:text-white" size={32} />}
                 </div>
                 <h3 className="text-xl font-semibold text-secondary-900 mb-3">
                   {service.title}
@@ -76,7 +78,8 @@ const Home = () => {
                   <ArrowRight size={16} className="ml-1" />
                 </Link>
               </Card>
-            ))}
+              );
+            })}
           </div>
           
           <div className="text-center mt-12">
